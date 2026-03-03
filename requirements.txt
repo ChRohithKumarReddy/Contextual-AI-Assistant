@@ -1,13 +1,15 @@
-pip==26.0.1
 streamlit
 pypdf
+
 langchain
 langchain-community
-faiss-cpu
-sentence-transformers
-transformers
-torch==2.2.2
-huggingface-hub
-streamlit-mic-recorder
-SpeechRecognition
 
+faiss-cpu==1.7.4
+
+sentence-transformers==2.2.2
+transformers==4.38.2
+torch==2.2.2
+
+huggingface-hub
+SpeechRecognition
+streamlit-mic-recorder
